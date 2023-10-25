@@ -53,5 +53,3 @@ There are two types of matches in regular expressions Greedy and Lazy.  Greedy q
 Link to my github profile: [jarrodkrauszer](https://github.com/jarrodkrauszer)
 
 Here is a link to the repo: [Regex Tutorial](https://github.com/jarrodkrauszer/regex_tutorial)
-
-
