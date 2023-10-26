@@ -56,7 +56,8 @@ AbCdEf
 
 ### OR Operator
 
-The `|` serves as an OR operator which allows the patterns on either side of it to be matched.  Meaning in our expression both 6 digit and 3 digit hexadecimal codes are valid.
+In regular expressions the `|` serves as an OR operator which allows the patterns on either side of it to be matched. This means that a valid match can occur if either of the patterns is found. In our expression valid matches can be either 6 characters OR 3 characters. The OR operator provides flexibility in pattern matching, allowing you to define more comprehensive validation rules for your data.
+
 
 Here is an example of a regular expression that uses an or operator and strings that match the criteria:
 
@@ -99,6 +100,7 @@ Here is an example regular expression and some strings that match the criteria:
 There are two types of matches in regular expressions Greedy and Lazy.  Greedy quantifiers try to match as many characters as possible and Lazy quantifiers try to match as few characters as possible.  Our expression utilizes two Greedy matches.
 
 `{6}` - matches exactly 6 characters
+
 `{3}` - matches exactly 3 characters
 
 ## Author
